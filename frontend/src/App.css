@@ -1,0 +1,56 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	animation: App-logo-spin infinite 20s linear;
+	height: 80px;
+}
+
+.App-header {
+	background-color: #222;
+	height: 150px;
+	padding: 20px;
+	color: white;
+}
+
+.App-title {
+	font-size: 1.5em;
+}
+
+.App-intro {
+	font-size: large;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+body {
+	background-image: url(//www.toptal.com/designers/subtlepatterns/patterns/symphony.png);
+	background-position: bottom;
+	animation: 7s linear 0s infinite bp;
+	align-items: center;
+	justify-content: center;
+}
+
+@keyframes bp {
+	from {
+		background-position: 198px 0;
+	}
+
+	to {
+		background-position: 0 198px;
+	}
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
